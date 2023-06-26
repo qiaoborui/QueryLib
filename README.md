@@ -20,7 +20,7 @@
 1. 克隆项目到本地：
 
    ```shell
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/qiaoborui/QueryLib.git
    ```
 
 2. 进入项目目录：
