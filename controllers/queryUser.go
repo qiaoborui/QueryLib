@@ -121,7 +121,7 @@ func getStudentData(ids []string) []result {
 				} else {
 					if data.Status == 1 {
 						if len(data.Data) == 0 {
-							resCh <- result{ID: id, Error: "Error: No Data"}
+							resCh <- result{ID: id, Error: "Error: No Data", StatusName: "未使用"}
 						}
 						for _, d := range data.Data {
 							resCh <- result{
